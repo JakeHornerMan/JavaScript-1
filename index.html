@@ -7,20 +7,20 @@
 	</head>
 	<body>
 		<h1>JavaScript (internal)</h1>
-		<h1>JavaScript (internal)</h1>
 		<button onclick=popup1();>
 			popup1!
 		</button>
-		<button onclick=popup1();>
+		<button onclick=popup2();>
 			popup2!
 		</button>
 		<script>
+		var name=prompt("what is your name?");
+		var age=prompt("what is your age?");
 		function popup1(){	
-			alert();
+			alert(name);
 		}
 		function popup2(){
-			prompt();
-			confirm();
+			alert(age);
 		}
 		</script>
 	</body>
